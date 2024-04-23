@@ -43,7 +43,7 @@ To make the application work again:
 
 ## Resources
 
-- [API Documentation]([https://api.exchangeratesapi.io/](https://exchangeratesapi.io/))
+- [API Documentation](https://exchangeratesapi.io/)
 
 ## Contributing
 
