@@ -66,7 +66,7 @@ public class CurrencyConverter {
     private static void sendHttpGETRequest(String fromCode, String toCode, double amount) throws IOException {
 
         DecimalFormat f = new DecimalFormat("00.00");
-        String GET_URL = "https://api.exchangeratesapi.io/latest?access_key=861d1fb410d10b05328743fc52936a64&base=" + toCode + "&symbols=" + fromCode;
+        String GET_URL = "https://api.exchangeratesapi.io/latest?base=" + toCode + "&symbols=" + fromCode;
         URL url = new URL(GET_URL);
         HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
         httpURLConnection.setRequestMethod("GET");
